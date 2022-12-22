@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="container__admin">
+          <div class="container__title">Admin Panel</div>
+          <div>
+            <button class="container__button">Options</button>
+          </div>
+          <div>
+            <button class="container__button">Static Pages</button>
+          </div>
+          <div>
+            <button class="container__button">Posts</button>
+          </div>
+          <div>
+            <button class="container__button">Modules</button>
+          </div>
+          <div>
+            <button class="container__button">Navigation Links</button>
+          </div>
+          <div>
+            <button class="container__button">Mailinig List</button>
+          </div>
+          <div>
+            <button class="container__button">Themes</button>
+          </div>
+
+          <div>
+            <center>
+              <button class="logoutBtn">Logout</button>
+            </center>
+          </div>
+        </div>
+        <div class="container__navigation">
+          <div class="navTitle">Navigation Liks</div>
+          <div class="container__table">
+            <center>
+              <div class="tableDiv">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>URL</th>
+                      <th>Name</th>
+                      <th>Edit</th>
+                      <th>Move</th>
+                      <th>Visible</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>/</td>
+                      <td>Home</td>
+                      <td><button class="editBtn">Edit</button></td>
+                      <td><button class="arrowBtn">▼</button></td>
+                      <td>
+                        <button class="visibleBtn editBtn">Visible</button>
+                      </td>
+                      <td><button class="deleteBtn editBtn">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>/posts</td>
+                      <td>Posts</td>
+                      <td><button class="editBtn">Edit</button></td>
+                      <td>
+                        <button class="arrowBtn">▼</button>
+                        <button class="arrowBtn">▲</button>
+                      </td>
+                      <td>
+                        <button class="visibleBtn editBtn">Visible</button>
+                      </td>
+                      <td><button class="deleteBtn editBtn">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>/contact</td>
+                      <td>Contact</td>
+                      <td><button class="editBtn">Edit</button></td>
+                      <td>
+                        <button class="arrowBtn">▲</button>
+                      </td>
+                      <td>
+                        <button class="visibleBtn editBtn">Visible</button>
+                      </td>
+                      <td><button class="deleteBtn editBtn">Delete</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div>
+                <div class="mainTitle">Quick Links</div>
+                <div>
+                  <button class="mainBtn">Link Static Page</button>
+                  <button class="mainBtn">Link Post</button>
+                  <button class="mainBtn">Link Module</button>
+                </div>
+              </div>
+
+              <div>
+                <div class="mainTitle">Add New Link</div>
+                <div>
+                  <input class="main__input" placeholder="URL" />
+                  <input class="main__input" placeholder="Name" />
+                  <button class="addBtn">Add</button>
+                </div>
+              </div>
+
+              <div class="option">
+                <div class="mainTitle">Options</div>
+                <div>
+                  <span class="option__title">Navigation Link Spacer</span>
+                  <span>
+                    <select class="option__select">
+                      <option>Wider Space</option>
+                    </select>
+                  </span>
+                </div>
+                <div>Set the spacing between the navigation links</div>
+                <div>
+                  <button style="margin: 1em" class="mainBtn">Save</button>
+                </div>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
